@@ -1,104 +1,111 @@
 # 📊 Sales Insights & Profit Analysis Dashboard
 
-## 📌 Project Summary
-
-This project showcases an **interactive Sales Performance Dashboard** developed using Power BI to deliver actionable insights into sales, profitability, and customer behavior. The dashboard is designed to support strategic decision-making through intuitive and data-driven visualizations.
+> An interactive **Power BI dashboard** designed to analyze sales performance, profitability, and customer behavior using data-driven insights.
 
 ---
 
-## 🎯 Key Objectives
+## 🚀 Overview
 
-* Evaluate overall business performance using key financial metrics
-* Analyze sales trends over time to identify growth patterns
-* Identify top-performing product sub-categories
-* Understand customer segmentation and contribution
-* Assess geographical sales distribution
+The **Sales Insights Dashboard** provides a comprehensive view of business performance through visually rich and interactive reports. It enables users to explore trends, identify high-performing areas, and make informed decisions.
 
 ---
 
-## 🗂️ Dataset Information
+## 🎯 Objectives
 
-* **Dataset:** Superstore Sales Dataset
-* **Source:** https://github.com/plotly/datasets/blob/master/superstore.csv
-* **Type:** Structured CSV dataset containing transactional sales data
-
----
-
-## 🛠️ Technology Stack
-
-* **Microsoft Power BI** – Data visualization and dashboard development
-* **Power Query** – Data cleaning and transformation
-* **DAX (Data Analysis Expressions)** – Custom calculations and KPIs
+- 📌 Monitor overall sales and profit performance  
+- 📈 Analyze year-wise sales trends  
+- 🛍️ Identify top-performing product sub-categories  
+- 👥 Understand customer segmentation  
+- 🌍 Evaluate regional sales distribution  
 
 ---
 
-## 📊 Dashboard Components
+## 📂 Dataset Details
 
-### 🔹 Key Performance Indicators (KPIs)
-
-* **Total Sales:** 62.09K
-* **Total Profit:** 6.30K
-* **Total Orders:** 230
-* **Profit Margin:** 10%
-
----
-
-### 🔹 Analytical Visualizations
-
-* **Sales Trend Analysis (Line Chart)**
-  Tracks yearly sales performance to identify trends and fluctuations
-
-* **Sales by Sub-Category (Bar Chart)**
-  Highlights top and low-performing product categories
-
-* **Sales by Segment (Pie Chart)**
-  Displays contribution of customer segments (Consumer, Corporate, Home Office)
-
-* **Region-wise Sales Distribution (Map)**
-  Visual representation of sales concentration across regions
+| Attribute | Description |
+|----------|------------|
+| Dataset Name | Superstore Sales Dataset |
+| Source | https://github.com/plotly/datasets/blob/master/superstore.csv |
+| Format | CSV |
+| Type | Structured transactional data |
 
 ---
 
-## 📈 Business Insights
+## 🛠️ Tools & Technologies
 
-* High contribution from select sub-categories such as Machines and Chairs
-* Noticeable peak in sales during 2016 followed by slight decline
-* Consumer segment accounts for the majority of total sales
-* Regional disparities highlight potential opportunities for expansion
-
----
-
-## 🧩 Data Preparation
-
-* Removed null and inconsistent values
-* Standardized column headers and data types
-* Created calculated measures for:
-
-  * Total Sales
-  * Total Profit
-  * Order Count
-  * Profit Margin
+- **Power BI** – Dashboard creation & visualization  
+- **Power Query** – Data cleaning & transformation  
+- **DAX** – Measures & calculated fields  
 
 ---
 
-## 📷 Dashboard Preview
+## 📊 Dashboard Features
 
->  i<img width="2880" height="1800" alt="Screenshot (56)" src="https://github.com/user-attachments/assets/2b46ee24-ce2d-4e5a-bb2a-ea789026187d" />
----
+### 🔹 Key Metrics (KPIs)
 
-## 📌 Future Enhancements
-
-* Integration of dynamic slicers for enhanced interactivity
-* Implementation of advanced KPIs (YoY growth, MoM trends)
-* UI/UX improvements with custom themes and layout optimization
-* Drill-through and tooltip enhancements
+- 💰 **Total Sales:** 62.09K  
+- 📊 **Total Profit:** 6.30K  
+- 📦 **Total Orders:** 230  
+- 📉 **Profit Margin:** 10%  
 
 ---
 
-## 📁 Repository Structure
+### 🔹 Visual Insights
+
+- 📈 **Sales Trend (Year-wise)**  
+  → Tracks performance fluctuations over time  
+
+- 📊 **Sales by Sub-Category**  
+  → Highlights best & worst performing products  
+
+- 🥧 **Sales by Segment**  
+  → Consumer dominates overall contribution  
+
+- 🗺️ **Regional Sales Map**  
+  → Shows geographic distribution of sales  
+
+---
+
+## 💡 Key Insights
+
+- 🔝 Machines & Chairs generate the highest revenue  
+- 📊 Peak sales observed in **2016**, slight drop afterward  
+- 👥 Consumer segment contributes the most  
+- 🌍 Regional gaps indicate expansion opportunities  
+
+---
+
+## 🧹 Data Preparation Steps
+
+- Removed missing and inconsistent values  
+- Standardized column names and formats  
+- Created DAX measures:
+  - Total Sales  
+  - Total Profit  
+  - Order Count  
+  - Profit Margin  
+
+---
+
+## 📸 Dashboard Preview
+
+![Dashboard Preview](dashboard_preview_sales.png)
+
+---
+
+## 🔮 Future Improvements
+
+- 🔄 Add dynamic slicers for better interactivity  
+- 📊 Implement YoY & MoM growth analysis  
+- 🎨 Enhance UI with custom themes  
+- 🔍 Enable drill-through & advanced tooltips  
+
+---
+
+## 📁 Project Structure
 
 ```
-📦 sales-insights-and-profit-analysis
+📦 sales-insights-dashboard
  ┣ 📂 data
  ┃ ┣ raw_dataset.csv
  ┃ ┗ cleaned_dataset.csv
@@ -110,12 +117,23 @@ This project showcases an **interactive Sales Performance Dashboard** developed 
 
 ---
 
-## 🤝 Contribution
+## 🤝 Contributing
 
-Contributions, suggestions, and improvements are welcome. Feel free to fork the repository and submit a pull request.
+Contributions are welcome!
+
+1. Fork the repository  
+2. Create a new branch  
+3. Make your changes  
+4. Submit a Pull Request  
 
 ---
 
 ## 📜 License
 
-This project is intended for educational and portfolio purposes.
+This project is licensed under the **MIT License**.
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub!
