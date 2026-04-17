@@ -6,7 +6,7 @@
 
 ## 🚀 Overview
 
-The **Sales Insights Dashboard** provides a comprehensive view of business performance through visually rich and interactive reports. It enables users to explore trends, identify high-performing areas, and make informed decisions.. 
+The **Sales Insights Dashboard** provides a comprehensive view of business performance through visually rich and interactive reports. It enables users to explore trends, identify high-performing areas, and make informed decisions.
 
 ---
 
